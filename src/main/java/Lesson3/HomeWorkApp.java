@@ -24,7 +24,7 @@ public class HomeWorkApp {
         for (int i = 0; i < myArray.length; i ++ ){
             myArray[i] = random.nextInt (2);
             System.out.println("Массив 1: " + myArray [i]);
-            }
+        }
         for (int i = 0; i < myArray.length; i ++ ){
             if (myArray [i]==0){
                 myArray[i] = 1;
