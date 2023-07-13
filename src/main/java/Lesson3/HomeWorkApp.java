@@ -92,6 +92,7 @@ public class HomeWorkApp {
             System.out.println();
         }
     }
+
     private static void myArray5() {
         System.out.println("Задание 5: ");
         System.out.println("Введите длину массива: ");
