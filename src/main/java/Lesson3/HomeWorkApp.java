@@ -92,14 +92,6 @@ public class HomeWorkApp {
             System.out.println();
         }
     }
- //   private static int myArray5(String msg) {
- //       System.out.println("Задание 5: ");
- //       System.out.println(msg);
-  //      return scanner.nextInt();
-//        int[] myArray5 = new int[];
-    //    System.out.println("Введите значение массива  ");
-    //    return scanner.nextInt();
-//    }
     private static void myArray5() {
         System.out.println("Задание 5: ");
         System.out.println("Введите длину массива: ");
