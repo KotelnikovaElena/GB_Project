@@ -1,15 +1,20 @@
 package Lesson3;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class HomeWorkApp {
+    public static Scanner scanner = new Scanner(System.in);
+
     public static void main (String[] args) {
 
         myArray();
         myArray2();
         myArray3();
         myArray4();
+        myArray5();
 //        myArray4TEST();
+//        System.out.println("Длина массива: " + myArray5("Введите длину массива"));
     }
 
     private static void myArray() {
@@ -87,6 +92,29 @@ public class HomeWorkApp {
             System.out.println();
         }
     }
+ //   private static int myArray5(String msg) {
+ //       System.out.println("Задание 5: ");
+ //       System.out.println(msg);
+  //      return scanner.nextInt();
+//        int[] myArray5 = new int[];
+    //    System.out.println("Введите значение массива  ");
+    //    return scanner.nextInt();
+//    }
+    private static void myArray5() {
+        System.out.println("Задание 5: ");
+        System.out.println("Введите длину массива: ");
+        int number = scanner.nextInt();
+        int[] myArray5 = new int[number];
+        System.out.println("Длина массива: " + myArray5.length);
+        System.out.println("Введите значение массива: ");
+        System.out.println("Значение массива: ");
+        int number2 = scanner.nextInt();
+        for (int i = 0; i < myArray5.length; i++) {
+            myArray5[i] = number2 ;
+            System.out.print(myArray5[i] + " | ");
+        }
+        System.out.println();
+    }
 /*   public static void myArray4TEST() {
         System.out.println("ТЕСТ: ");
         int[][] arr = new int[5][5];
@@ -107,5 +135,6 @@ public class HomeWorkApp {
     }
 
  */
+
 }
 
