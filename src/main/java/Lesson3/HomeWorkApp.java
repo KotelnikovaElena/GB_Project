@@ -24,7 +24,7 @@ public class HomeWorkApp {
         for (int i = 0; i < myArray.length; i ++ ){
             myArray[i] = random.nextInt (2);
             System.out.println("Массив 1: " + myArray [i]);
-            }
+        }
         for (int i = 0; i < myArray.length; i ++ ){
             if (myArray [i]==0){
                 myArray[i] = 1;
@@ -58,23 +58,7 @@ public class HomeWorkApp {
             System.out.println(myArray3[i]);
         }
     }
-    /*    private static void myArray4() {
-        System.out.println("Задание 4: ");
-        int[][] myArray4 = new int[4][4];
-        for (int i = 0; i < myArray4.length; i++) {
-            for (int j = 0; j < myArray4.length; j++) {
-                if (i == j){
-                    myArray4[i][j] = 1;
-                }
-                else{
-                    myArray4[i][j] = 0;
-                }
 
-                System.out.print(myArray4[i][j] + " | ");
-            }
-            System.out.println();
-        }
-    }*/
     private static void myArray4() {
         System.out.println("Задание 4: ");
         int[][] myArray4 = new int[4][4];
